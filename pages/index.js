@@ -103,33 +103,33 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
-              <a href='https://my-recipesapp.netlify.app' target="_blank">
-                <Image src={recipe} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+              <a href='https://my-recipesapp.netlify.app' target="_blank" rel="noreferrer">
+                <Image src={recipe} alt="recipe" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
               </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <a href='https://technology-firm.netlify.app' target="_blank">
-                <Image src={techfirm} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+              <a href='https://technology-firm.netlify.app' target="_blank" rel="noreferrer">
+                <Image src={techfirm} alt="techfirm" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
               </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <a href='https://myquizzical-app.netlify.app' target="_blank">
-                <Image src={quizzical} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+              <a href='https://myquizzical-app.netlify.app' target="_blank" rel="noreferrer">
+                <Image src={quizzical} alt="quizzical" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
               </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <a href='https://my-tenziesgame.netlify.app' target="_blank">
-                <Image src={tenzies} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+              <a href='https://my-tenziesgame.netlify.app' target="_blank" rel="noreferrer">
+                <Image src={tenzies} alt="tenzies" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
               </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <a href='https://itoromfon.github.io/Password-Generator/' target="_blank">
-                <Image src={passwordgen} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+              <a href='https://itoromfon.github.io/Password-Generator/' target="_blank" rel="noreferrer">
+                <Image src={passwordgen} alt="passwordgen" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
               </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <a href='https://my-memegeneratorproject.netlify.app' target="_blank">
-                <Image src={memegen} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
+              <a href='https://my-memegeneratorproject.netlify.app' target="_blank" rel="noreferrer">
+                <Image src={memegen} alt="memegen" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive" />
               </a>
             </div>
           </div>
