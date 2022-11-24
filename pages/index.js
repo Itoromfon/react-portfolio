@@ -55,16 +55,16 @@ export default function Home() {
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'> 
-            <a href='https://twitter.com/praiztech' target="_blank">
+            <a href='https://twitter.com/praiztech' target="_blank" rel="noreferrer">
               <AiFillTwitterCircle className='dark:text-white' />
             </a>
-            <a href='https://m.facebook.com/praise.mfon.73?eav=AfbRlvWHn1qfEDaq26JlDXb2gHH6uk2oMrOGQvUM3NZ5fmR3oEZDb4B3k8EXDvUnaXQ&paipv=0' target="_blank">
+            <a href='https://m.facebook.com/praise.mfon.73?eav=AfbRlvWHn1qfEDaq26JlDXb2gHH6uk2oMrOGQvUM3NZ5fmR3oEZDb4B3k8EXDvUnaXQ&paipv=0' target="_blank" rel="noreferrer">
               <AiFillFacebook className='dark:text-white' />
             </a>
-            <a href='https://www.linkedin.com/in/itoro-mfon-emmanuel-3867991aa/' target="_blank">
+            <a href='https://www.linkedin.com/in/itoro-mfon-emmanuel-3867991aa/' target="_blank" rel="noreferrer">
               <AiFillLinkedin className='dark:text-white' />
             </a>
-            <a href='https://github.com/Itoromfon?tab=repositories' target="_blank">
+            <a href='https://github.com/Itoromfon?tab=repositories' target="_blank" rel="noreferrer">
               <AiFillGithub className='dark:text-white' />
             </a>
           </div>
