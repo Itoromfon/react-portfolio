@@ -50,7 +50,7 @@ export default function Home() {
             <h2 className='dark:text-teal-400 text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Itoro Mfon Emmanuel</h2>
             <h3 className='dark:text-white text-2xl py-2 md:text-3xl'>Software Engineer / Frontend Developer</h3>
             <p className='dark:text-white text-md py-5 leading-8 text-gray-700 md:text-xl max-w-xl mx-auto '>My main aim is to contribute to the growth and development 
-              of any company I'm working with and offer the best services to 
+              of any company am working with and offer the best services to 
               the development of the organization.
             </p>
           </div>
@@ -69,14 +69,14 @@ export default function Home() {
             </a>
           </div>
           <div className="mx-auto  rounded-full flex justify-center mt-20 md:h-96 md:w-96">
-            <Image src={itoromfon} className="rounded-full mb-8 w-80 h-80" />
+            <Image src={itoromfon} alt="itoromfon" className="rounded-full mb-8 w-80 h-80" />
           </div>
         </section>
         <section>
           <div className='text-center'>
             <h3 className='dark:text-white text-3xl py-1'>Services we offer</h3>
             <p className='dark:text-white text-md py-2 leading-8 text-gray-700 md:text-xl max-w-xl mx-auto'>Since the beginning of my journey as a developer,
-              I've done remote work for
+              I have done remote work for
               <span className='text-teal-500'> agencies </span>consulted for <span className='text-teal-500'>
                 startups </span> and collaborated with talented people to create digital products for both
                 and consumer use.
@@ -91,7 +91,7 @@ export default function Home() {
           <div className='text-center mt-10'>
             <h3 className='dark:text-white text-3xl py-1'>Portfolio</h3>
             <p className='dark:text-white text-md py-2 leading-8 text-gray-700 md:text-xl max-w-xl mx-auto'>Since the beginning of my journey as a developer,
-              I've done remote work for
+              I have done remote work for
               <span className='text-teal-500'> agencies </span>consulted for <span className='text-teal-500'>
                 startups </span> and collaborated with talented people to create digital products for both
                 and consumer use.
