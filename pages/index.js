@@ -7,18 +7,17 @@ import {
   AiFillGithub
 } from "react-icons/ai"
 import Image from 'next/image'
-import itoromfon from "../public/itoromfon.PNG"
-import recipe from "../public/recipe.PNG"
-import techfirm from "../public/techfirm.PNG"
-import quizzical from "../public/quizzical.PNG"
-import tenzies from "../public/tenzies.PNG"
-import passwordgen from "../public/Password-Gen.PNG"
-import memegen from "../public/meme-gen.PNG"
+import itoromfon from "../public/itoromfon.png"
+import recipe from "../public/recipe.png"
+import techfirm from "../public/techfirm.png"
+import quizzical from "../public/quizzical.png"
+import tenzies from "../public/tenzies.png"
+import passwordgen from "../public/Password-Gen.png"
+import memegen from "../public/meme-gen.png"
 import { useState } from 'react'
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true)
-  const [toggle, setToggle] = useState(darkMode)
 
   function handleClick() {
     setDarkMode(prevDarkMode => !prevDarkMode)
@@ -69,7 +68,7 @@ export default function Home() {
             </a>
           </div>
           <div className="mx-auto  rounded-full flex justify-center mt-20 md:h-96 md:w-96">
-            <Image src={itoromfon} alt="itoromfon" className="rounded-full mb-8 w-80 h-80" />
+            <Image src={itoromfon} alt="itoromfon" className="rounded-full mb-8" />
           </div>
         </section>
         <section>
