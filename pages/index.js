@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import style from "../styles/Home.module.css";
 import { BsFillMoonStarsFill } from "react-icons/bs"
 import { 
   AiFillTwitterCircle, 
@@ -67,8 +68,8 @@ export default function Home() {
               <AiFillGithub className='dark:text-white' />
             </a>
           </div>
-          <div className="mx-auto  rounded-full flex justify-center mt-20 md:h-96 md:w-96">
-            <Image src={itoromfon} alt="itoromfon" className="rounded-full mb-8" />
+          <div className={`mx-auto  rounded-full flex justify-center mt-20 ${style.imageContainer}`}>
+            <Image src={itoromfon} alt="itoromfon" className="rounded-full" />
           </div>
         </section>
         <section>
