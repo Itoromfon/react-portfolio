@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import style from "../styles/Home.module.css";
 import { BsFillMoonStarsFill } from "react-icons/bs"
 import { 
   AiFillTwitterCircle, 
@@ -68,8 +67,8 @@ export default function Home() {
               <AiFillGithub className='dark:text-white' />
             </a>
           </div>
-          <div className={`mx-auto  rounded-full flex justify-center mt-20 ${style.imageContainer}`}>
-            <Image src={itoromfon} alt="itoromfon" className="rounded-full" />
+          <div className="mx-auto  rounded-full flex justify-center mt-20 md:h-96 md:w-96">
+            <Image src={itoromfon} alt="itoromfon" className="rounded-full mb-8 w-80 h-80" />
           </div>
         </section>
         <section>
@@ -83,22 +82,15 @@ export default function Home() {
             </p>
             <p className='dark:text-white text-md py-2 leading-8 text-gray-700 md:text-xl max-w-xl mx-auto'>
               I offer from a wide range of services, including 
-              programming and teaching.
+              programming and other great skills.
             </p>
           </div>
         </section>
         <section>
           <div className='text-center mt-10'>
-            <h3 className='dark:text-white text-3xl py-1'>Portfolio</h3>
-            <p className='dark:text-white text-md py-2 leading-8 text-gray-700 md:text-xl max-w-xl mx-auto'>Since the beginning of my journey as a developer,
-              I have done remote work for
-              <span className='text-teal-500'> agencies </span>consulted for <span className='text-teal-500'>
-                startups </span> and collaborated with talented people to create digital products for both
-                and consumer use.
-            </p>
-            <p className='dark:text-white text-md py-2 leading-8 text-gray-700 mt-8 md:text-xl max-w-xl mx-auto'>
-              I offer from a wide range of services, including 
-              programming and teaching.
+            <h3 className='dark:text-white text-3xl py-0'>Portfolio</h3>
+            <p className='dark:text-white text-md py-0 leading-8 text-gray-700 mt-8 md:text-xl max-w-xl mx-auto'>
+              My Skills set includes HTML, CSS, Javascript, React JS, Next JS, Tailwind CSS, ES6 and other great skills
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>

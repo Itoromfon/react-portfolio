@@ -11,6 +11,13 @@ module.exports = {
         burtons: "burtons",
       }
     },
+    screens: {
+      'sm': '480px',
+      'md': '600px',
+      'mds': '768px', 
+      'lg': '1024px',
+      'xl': '1280px'
+    }
   },
   plugins: [],
 }

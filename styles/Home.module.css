@@ -1,19 +1,14 @@
-.imageContainer {
-  width: 150px;
-  height: 200px;
-}
-
 @media screen and (max-width: 480px) {
-  .imageContainer {
-    width: 70px;
-    height: 100px;
-  }
+  /* .imageContainer {
+    width: 180px;
+    height: 180px;
+  } */
 }
 
 @media screen and (max-width: 600px) and (min-width: 481px) {
   .imageContainer {
-    width: 90px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
   }
 }
 
